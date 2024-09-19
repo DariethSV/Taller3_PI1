@@ -75,8 +75,8 @@ for i in range(len(movies)):
 
 file_path = "movie_descriptions.json"
 
-# Write the data to the JSON file
+#Write the data to the JSON file
 with open(file_path, 'w') as json_file:
-    json.dump(movies, json_file, indent=4)  # The 'indent' parameter is optional for pretty formatting
+#json.dump(movies, json_file, indent=4)  # The 'indent' parameter is optional for pretty formatting
 
-print(f"Data saved to {file_path}")
+    print(f"Data saved to {file_path}")
